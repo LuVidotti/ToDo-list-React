@@ -1,0 +1,26 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #EEEEEE;
+  min-height: 100vh;
+}
+
+.App h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 1em;
+}
+
+.caixas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5em;
+}
+
+.listas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5em;
+}

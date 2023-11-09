@@ -1,0 +1,44 @@
+:root {
+    --verde-escuro: #cde6de;
+    --verde-medio: #deeee9;
+    --verde-claro: #eef7f4;
+}
+
+.campo-tarefa {
+    width: 25%;
+}
+
+.campo-tarefa h2 {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.lista-tarefas {
+    list-style: none;
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 27px -4px rgba(0,0,0,0.65);
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.lista-tarefas li {
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.lista-tarefas button {
+    background-color: transparent;
+    border: none;
+}
+
+.lista-tarefas button:hover {
+    color: blue;
+    cursor: pointer;
+}
